@@ -55,7 +55,7 @@ public class BaseTest {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
         // Open URL
-       // driver.get(prop.getProperty("url"));
+       // driver.get(prop.getProperty("url"));////
     }
 
     @AfterMethod
