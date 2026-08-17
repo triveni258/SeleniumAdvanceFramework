@@ -1,10 +1,12 @@
 package Tests;
 import java.io.FileInputStream;
 import org.apache.poi.ss.usermodel.*;
+import org.testng.annotations.Test;
 
-    public class ExcelDataread {
+public class ExcelDataread {
 
-        public static void main(String[] args) throws Exception {
+       @Test
+       public  void readExcelData() throws Exception {
 
             FileInputStream fis = new FileInputStream("src/test/Resources/TestData/Book1.xlsx");
 
